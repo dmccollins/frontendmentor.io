@@ -10,9 +10,8 @@ html {
 
 body {
   background-color: #D5E1EF;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  place-items: center;
   min-height: 100vh;
   margin: 0;
 }
