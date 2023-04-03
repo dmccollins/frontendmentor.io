@@ -45,6 +45,6 @@ body {
 .content-p {
   color: #7D889E;
   margin-top: 1rem;
-  letter-spacing: .06rem;
+/*   letter-spacing: .06rem; */
   padding: 0 1rem;
 }
