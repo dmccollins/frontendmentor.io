@@ -1,7 +1,7 @@
 # frontendmentor.io
 Frontend Mentor projects
 
-## Content
+### Content
 
 1. [Components](#components)
 2. Landing Pages [ coming soon ]
@@ -11,7 +11,7 @@ Frontend Mentor projects
 6. Web Apps [ coming soon ]
 7. Games [ coming soon ]
 
-### Components 
+## Components 
 
 1. [QR Code Component](https://dmccollins.github.io/frontendmentor.io/qr-code-component)
 2. [3-Column Preview Card Component](https://dmccollins.github.io/frontendmentor.io/3-column-preview-card-component)
