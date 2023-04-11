@@ -20,4 +20,4 @@ Frontend Mentor projects
 
 ## Landing Pages
 
-1. [Huddle Landing Page w/ Single Introductory Section](https://dmccollins.github.iohuddle-landing-page-with-single-introductory-section)
+1. [Huddle Landing Page w/ Single Introductory Section](https://dmccollins.github.io/frontendmentor.io/huddle-landing-page-with-single-introductory-section)
