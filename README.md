@@ -4,7 +4,7 @@ Frontend Mentor projects
 ### Content
 
 1. [Components](#components)
-2. Landing Pages [ coming soon ]
+2. Landing Pages [#landing-pages]
 3. Forms [ coming soon ]
 4. Single Page Sites [ coming soon ]
 5. Multi-Page Websites [ coming soon ]
@@ -18,3 +18,6 @@ Frontend Mentor projects
 2. [Results Summary Component](https://dmccollins.github.io/frontendmentor.io/results-summary-component)
 4. [Product Preview Card Component](https://dmccollins.github.io/frontendmentor.io/product-preview-card-component)
 
+## Landing Pages
+
+1. [Huddle Landing Page w/ Single Introductory Section](https://dmccollins.github.iohuddle-landing-page-with-single-introductory-section)
