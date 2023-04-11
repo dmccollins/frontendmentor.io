@@ -112,6 +112,7 @@ body {
 
   .content-title {
     font-size: 245%;
+    line-height: 3.75rem;
   }
 
   .content-description {
