@@ -4,7 +4,7 @@ Frontend Mentor projects
 ### Content
 
 1. [Components](#components)
-2. Landing Pages [#landing-pages]
+2. [Landing Pages](#landing-pages)
 3. Forms [ coming soon ]
 4. Single Page Sites [ coming soon ]
 5. Multi-Page Websites [ coming soon ]
