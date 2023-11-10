@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Poppins:wght@400;600&display=swap');
+
+:root {
+  /* --- colors --- */
+  --violet: hsl(257, 40%, 49%);
+  --soft-magenta: hsl(300, 69%, 71%);
+  --white: #FFF;
+  /* --- font-sizes --- */
+  --mobile-sm-txt: .75rem;
+  --mobile-md-txt: 1rem;
+  --mobile-lg-txt: 1.5rem;
+  --tablet-lg-txt: 2rem;
+  --desktop-md-txt: 1.125rem;
+  --desktop-lg-txt: 2.5rem;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}

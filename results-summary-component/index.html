@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Frontend Mentor | Results summary component</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+  <main>
+
+    <div class="component">
+
+      <section class="result"><!-- begin section.result-->
+        <header class="header result-header">Your Result</header>
+
+        <section class="result-score">
+          <div class="score-total">76</div> of 100
+        </section>
+
+        <section class="result-percentile">
+          <div class="percentile-class">Great</div>
+          You scored higher than 65% of the people who have taken these tests.
+        </section>
+      </section><!-- end section.result -->
+
+      <section class="summary"><!-- begin section.summary-->
+        <header class="header summary-header">Summary</header>
+
+        <section class="summary-categories">
+          <div class="category reaction">
+            <div class="category-label">
+              <img class="label-icon" src="./images/icon-reaction.svg" alt="">Reaction
+            </div>
+            <div class="category-score">
+              <span class="score" id="reactionScore">80</span> / 100
+            </div>
+          </div>
+
+          <div class="category memory">
+            <div class="category-label">
+              <img class="label-icon" src="./images/icon-memory.svg" alt="">Memory
+            </div>
+            <div class="category-score">
+              <span class="score" id="memoryScore">92</span> / 100
+            </div>
+          </div>
+
+          <div class="category verbal">
+            <div class="category-label">
+              <img class="label-icon" src="./images/icon-verbal.svg" alt="">Verbal
+            </div>
+            <div class="category-score">
+              <span class="score" id="verbalScore">61</span> / 100
+            </div>
+          </div>
+
+          <div class="category visual">
+            <div class="category-label">
+              <img class="label-icon" src="./images/icon-visual.svg" alt="">Visual
+            </div>
+            <div class="category-score">
+              <span class="score" id="visualScore">72</span> / 100
+            </div>
+          </div>
+        </section>
+
+        <a class="btn" href="">Continue</a>
+      </section><!-- end section.summary -->
+
+    </div><!-- end div.component -->
+
+  </main>
+
+</body>
+
+</html>
