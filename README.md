@@ -1,4 +1,5 @@
 # frontendmentor.io
+
 Frontend Mentor projects
 
 ### Content
@@ -11,13 +12,13 @@ Frontend Mentor projects
 6. Web Apps [ coming soon ]
 7. Games [ coming soon ]
 
-## Components 
+## Components
 
-1. [QR Code Component](https://dmccollins.github.io/frontendmentor.io/qr-code-component)
-2. [3-Column Preview Card Component](https://dmccollins.github.io/frontendmentor.io/3-column-preview-card-component)
-2. [Results Summary Component](https://dmccollins.github.io/frontendmentor.io/results-summary-component)
-4. [Product Preview Card Component](https://dmccollins.github.io/frontendmentor.io/product-preview-card-component)
+1. [QR Code Component]()
+2. [3-Column Preview Card Component]()
+3. [Results Summary Component]()
+4. [Product Preview Card Component]()
 
 ## Landing Pages
 
-1. [Huddle Landing Page w/ Single Introductory Section](https://dmccollins.github.io/frontendmentor.io/huddle-landing-page-with-single-introductory-section)
+1. [Huddle Landing Page w/ Single Introductory Section]()
