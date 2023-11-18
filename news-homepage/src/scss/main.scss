@@ -26,7 +26,6 @@
     .nav-links {
       display: none;
       list-style: none;
-      // padding: 0;
       &.expanded {
         background-color: var(--almostwhite);
         display: block;
@@ -56,5 +55,41 @@
       color: var(--gunmetal);
       text-decoration: none;
     }
+  }
+}
+
+@media (min-width: 700px) {
+  .header {
+    margin: 28px auto;
+    max-width: 900px;
+    padding: 0 24px 0;
+    .logo {
+      width: 64px;
+      height: 40px;
+    }
+    .nav {
+      .nav-toggle {
+        display: none;
+      }
+      .nav-links {
+        display: flex;
+        justify-content: space-between;
+        width: 431px;
+        padding: 0;
+        li > a {
+          color: var(--gunmetal);
+          &:hover {
+            color: var(--lightvermillion);
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1440px) {
+  .header {
+    margin-top: 89px;
+    max-width: 1110px;
   }
 }

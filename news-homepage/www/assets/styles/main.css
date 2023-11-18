@@ -43,4 +43,37 @@
 .header .nav li > a {
   color: var(--gunmetal);
   text-decoration: none;
+}
+
+@media (min-width: 700px) {
+  .header {
+    margin: 28px auto;
+    max-width: 900px;
+    padding: 0 24px 0;
+  }
+  .header .logo {
+    width: 64px;
+    height: 40px;
+  }
+  .header .nav .nav-toggle {
+    display: none;
+  }
+  .header .nav .nav-links {
+    display: flex;
+    justify-content: space-between;
+    width: 431px;
+    padding: 0;
+  }
+  .header .nav .nav-links li > a {
+    color: var(--gunmetal);
+  }
+  .header .nav .nav-links li > a:hover {
+    color: var(--lightvermillion);
+  }
+}
+@media (min-width: 1440px) {
+  .header {
+    margin-top: 89px;
+    max-width: 1110px;
+  }
 }/*# sourceMappingURL=main.css.map */
