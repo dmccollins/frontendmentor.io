@@ -60,9 +60,9 @@
 
 @media (min-width: 700px) {
   .header {
-    margin: 28px auto;
-    max-width: 900px;
-    padding: 0 24px 0;
+    margin: 40px auto;
+    max-width: 1110px;
+    padding: 0 45px 0;
     .logo {
       width: 64px;
       height: 40px;
@@ -90,6 +90,6 @@
 @media (min-width: 1440px) {
   .header {
     margin-top: 89px;
-    max-width: 1110px;
+    padding: 0;
   }
 }
