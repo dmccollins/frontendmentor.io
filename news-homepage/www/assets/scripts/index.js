@@ -7,12 +7,10 @@ let menu = document.querySelector("#menu");
 
 function toggleMenu() {
 	if (menu.classList.contains("expanded")) {
-		this.setAttribute("aria-expanded", "false");
 		menu.classList.remove("expanded");
 		body.classList.remove("dimmed");
 	} else {
 		menu.classList.add("expanded");
-		this.setAttribute("aria-expanded", "true");
 		body.classList.add("dimmed");
 	}
 }
