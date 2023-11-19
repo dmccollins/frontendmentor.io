@@ -129,6 +129,12 @@
 }
 .stories .stories-top .top-articles > li {
   display: flex;
+  align-items: center;
+}
+.stories .stories-top .top-articles > li article {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
 }
 .stories .stories-top .top-articles > li:not(last-of-type) {
   margin-bottom: 32px;

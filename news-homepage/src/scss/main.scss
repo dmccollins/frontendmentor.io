@@ -1,12 +1,3 @@
-//  _____ ___  ____   ___
-// |_   _/ _ \|  _ \ / _ \   _
-//   | || | | | | | | | | | (_)
-//   | || |_| | |_| | |_| |  _
-//   |_| \___/|____/ \___/  (_)
-//
-//
-//
-
 .header,
 .stories {
   margin-left: 16px;
@@ -144,6 +135,12 @@
     counter-reset: top-story;
     .top-articles > li {
       display: flex;
+      align-items: center;
+      article {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+      }
     }
     .top-articles > li:not(last-of-type) {
       margin-bottom: 32px;
