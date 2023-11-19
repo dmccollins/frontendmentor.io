@@ -1,106 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./assets/images/favicon-32x32.png"
+		/>
+		<title>Frontend Mentor | News homepage</title>
+		<!-- Google Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap"
+			rel="stylesheet"
+		/>
+		<!-- Custom Styles -->
+		<link rel="stylesheet" href="assets/styles/style-guide.css" />
+		<link rel="stylesheet" href="assets/styles/main.css" />
+		<link rel="stylesheet" href="assets/styles/utilities.css" />
+	</head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <title>Frontend Mentor | News homepage</title>
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
-  <!-- Custom Styles -->
-  <link rel="stylesheet" href="assets/styles/style-guide.css">
-  <link rel="stylesheet" href="assets/styles/main.css">
-  <link rel="stylesheet" href="assets/styles/utilities.css">
-</head>
+	<body>
+		<header class="header">
+			<img
+				class="logo"
+				src="assets/images/logo.svg"
+				alt="Page logo: A bold capital 'W' followed by a bold period '.'"
+			/>
+			<nav class="nav">
+				<button class="nav-toggle" id="toggleOpen">
+					<img src="assets/images/icon-menu.svg" alt="Hamburger menu icon" />
+				</button>
+				<ul class="nav-links" id="menu">
+					<button class="nav-toggle" id="toggleClose">
+						<img
+							src="assets/images/icon-menu-close.svg"
+							alt="Close menu icon"
+						/>
+					</button>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="new.html">New</a></li>
+					<li><a href="popular.html">Popular</a></li>
+					<li><a href="trending.html">Trending</a></li>
+					<li><a href="categories.html">Categories</a></li>
+				</ul>
+			</nav>
+		</header>
 
-<body>
+		<main class="stories">
+			<section class="stories-featured">
+				<img
+					src="assets/images/image-web-3-mobile.jpg"
+					alt="A rendering of multi-colored geometrical shapes"
+				/>
+				<h1 class="featured-heading">The Bright Future of Web 3.0?</h1>
+				<p class="featured-desc">
+					We dive into the next evolution of the web that claims to put the
+					power of the platforms back into the hands of the people. But is it
+					really fulfilling its promise?
+				</p>
+				<a href="featured-article.html">Read more</a>
+			</section>
+			<section class="stories-new">
+				<h2 class="new-heading">New</h2>
+				<ul class="new-articles">
+					<li>
+						<article>
+							<a class="article-title" href="#">Hydrogen VS Electric Cars</a>
+							<p class="article-desc">
+								Will hydrogen-fueled cars ever catch up to EVs?
+							</p>
+						</article>
+					</li>
+					<li>
+						<article>
+							<a class="article-title" href="#">The Downsides of AI Artistry</a>
+							<p class="article-desc">
+								What are the possible adverse effects of on-demand AI image
+								generation?
+							</p>
+						</article>
+					</li>
+					<li>
+						<article>
+							<a class="article-title" href="#">Is VC Funding Drying Up?</a>
+							<p class="article-desc">
+								Private funding by VC firms is down 50% YOY. We take a look at
+								what that means.
+							</p>
+						</article>
+					</li>
+				</ul>
+			</section>
+			<section class="stories-top">
+				<ul class="top-articles">
+					<li>
+						<img
+							class="top-articles_img"
+							src="assets/images/image-retro-pcs.jpg"
+							alt=""
+						/>
+						<article>
+							<a class="top-articles_link" href="">Reviving Retro PCs</a>
+							<p class="top-articles_desc">
+								What happens when old PCs are given modern upgrades?
+							</p>
+						</article>
+					</li>
+					<li>
+						<img
+							class="top-articles_img"
+							src="assets/images/image-top-laptops.jpg"
+							alt=""
+						/>
+						<article>
+							<a class="top-articles_link" href="">Top 10 Laptops of 2022</a>
+							<p class="top-articles_desc">
+								Our best picks for various needs and budgets.
+							</p>
+						</article>
+					</li>
+					<li>
+						<img
+							class="top-articles_img"
+							src="assets/images/image-gaming-growth.jpg"
+							alt=""
+						/>
+						<article>
+							<a class="top-articles_link" href="">The Growth of Gaming</a>
+							<p class="top-articles_desc">
+								How the pandemic has sparked fresh opportunities.
+							</p>
+						</article>
+					</li>
+				</ul>
+			</section>
+		</main>
 
-  <header class="header">
-    <img class="logo" src="assets/images/logo.svg" alt="Page logo: A bold capital 'W' followed by a bold period '.'">
-    <nav class="nav">
-      <button class="nav-toggle" id="toggleOpen">
-        <img src="assets/images/icon-menu.svg" alt="Hamburger menu icon">
-      </button>
-      <ul class="nav-links" id="menu">
-        <button class="nav-toggle" id="toggleClose">
-          <img src="assets/images/icon-menu-close.svg" alt="Close menu icon">
-        </button>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="new.html">New</a></li>
-        <li><a href="popular.html">Popular</a></li>
-        <li><a href="trending.html">Trending</a></li>
-        <li><a href="categories.html">Categories</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <main class="stories">
-    <section class="stories-featured">
-      <img src="assets/images/image-web-3-mobile.jpg" alt="A rendering of multi-colored geometrical shapes">
-      <h1 class="featured-heading">The Bright Future of Web 3.0?</h1>
-      <p class="featured-desc">
-        We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of
-        the people. But is it really fulfilling its promise?
-      </p>
-      <a href="featured-article.html">Read more</a>
-    </section>
-    <section class="stories-new">
-      <h2 class="new-heading">New</h2>
-      <ul class="new-articles">
-        <li>
-          <article>
-            <a class="article-title" href="#">Hydrogen VS Electric Cars</a>
-            <p class="article-desc">Will hydrogen-fueled cars ever catch up to EVs?</p>
-          </article>
-        </li>
-        <li>
-          <article>
-            <a class="article-title" href="#">The Downsides of AI Artistry</a>
-            <p class="article-desc">What are the possible adverse effects of on-demand AI image generation?</p>
-          </article>
-        </li>
-        <li>
-          <article>
-            <a class="article-title" href="#">Is VC Funding Drying Up?</a>
-            <p class="article-desc">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
-          </article>
-        </li>
-      </ul>
-    </section>
-    <section class="stories-top">
-
-    </section>
-  </main>
-
-
-
-
-
-
-
-
-  <!-- 
+		<!-- 
 
   01
-  Reviving Retro PCs
-  What happens when old PCs are given modern upgrades?
+  
+  
 
   02
-  Top 10 Laptops of 2022
-  Our best picks for various needs and budgets.
+  
+  
 
   03
-  The Growth of Gaming
-  How the pandemic has sparked fresh opportunities.
+  
+  
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Your Name Here</a>.
   </div> -->
-  <script src="assets/scripts/index.js"></script>
-</body>
-
+		<script src="assets/scripts/index.js"></script>
+	</body>
 </html>
