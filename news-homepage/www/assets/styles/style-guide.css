@@ -20,12 +20,13 @@ html {
 
 body {
   background-color: var(--almostwhite);
+  color: var(--gunmetal);
   font: 400 normal 15px Inter, sans-serif;
+  line-height: 26px;
 }
 
 body.dimmed:before {
   content: "";
-  display: block;
   position: fixed;
   top: 0;
   bottom: 0;
@@ -33,4 +34,13 @@ body.dimmed:before {
   right: 0;
   opacity: 0.5;
   background-color: var(--darkspaceblue);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+section {
+  margin-bottom: 64px;
 }/*# sourceMappingURL=style-guide.css.map */
